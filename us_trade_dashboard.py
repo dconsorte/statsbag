@@ -112,3 +112,7 @@ selected_industry = st.selectbox("Select Industry:", list(industry_impact_by_reg
 
 plot_tile_map_with_gdp(selected_industry)
 plot_treemap_for_industry(selected_industry)
+
+# Add clickable link at bottom
+st.markdown("---")
+st.markdown("Built with ❤️ by [StatsBag](https://statsbag.com/)", unsafe_allow_html=True)
